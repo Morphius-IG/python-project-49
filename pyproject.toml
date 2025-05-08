@@ -12,3 +12,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["brain_games"]
+
+[project.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
