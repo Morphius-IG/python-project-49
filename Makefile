@@ -2,10 +2,14 @@ install: #Синхронизация при клонировании
 	uv sync
 brain-games: #Запуск игры
 	uv run brain-games
+brain-even: #Запуск игры на четность
+	uv run brain-even
 build: #Сборка проекта
 	uv build
 package-install: #Установка проекта
 	uv tool install dist/*.whl
+package-upgrade: #Переустановка пакета
+	uv tool install --force dist/hexlet_code-0.1.0-py3-none-any.whl
 lint: # Проверка проекта линтером
 	uv run ruff check brain_games
 lint_fix: # Исправление ошибок линтером

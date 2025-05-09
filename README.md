@@ -1,3 +1,5 @@
+https://asciinema.org/connect/fd10855f-7a38-4ef2-a6e4-8c5a73b3c837
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Morphius-IG/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Morphius-IG/python-project-49/actions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Morphius-IG_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Morphius-IG_python-project-49)[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Morphius-IG_python-project-49&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Morphius-IG_python-project-49)
@@ -10,3 +12,4 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Morphius-IG_python-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Morphius-IG_python-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Morphius-IG_python-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Morphius-IG_python-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Morphius-IG_python-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Morphius-IG_python-project-49)
+

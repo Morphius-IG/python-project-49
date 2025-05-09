@@ -2,12 +2,12 @@ import secrets
 
 import prompt
 
-from brain_games.scripts.brain_games import main as greeting
+from brain_games.cli import welcome_user
 
 
 def main():
-    name = greeting()
-    # print('Answer "yes" if the number is even, otherwise answer "no".')
+    name = welcome_user()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     counter = 0
     while counter < 3:
         number = secrets.randbelow(100) + 1
