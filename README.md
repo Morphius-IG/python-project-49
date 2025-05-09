@@ -1,8 +1,4 @@
-https://asciinema.org/a/cbMqNizrkty0PrZWNUJhIc1kD
-
 <a href="https://asciinema.org/a/cbMqNizrkty0PrZWNUJhIc1kD" target="_blank"><img src="https://asciinema.org/a/cbMqNizrkty0PrZWNUJhIc1kD.svg" /></a>
-
-<script src="https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.js" id="asciicast-bJMOlPe5F4mFLY0Rl6fiJSOp3" async></script>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Morphius-IG/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Morphius-IG/python-project-49/actions)
