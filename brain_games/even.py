@@ -1,4 +1,4 @@
-from random import randint
+import secrets
 
 import prompt
 
@@ -7,10 +7,10 @@ from brain_games.scripts.brain_games import main as greeting
 
 def main():
     name = greeting()
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    # print('Answer "yes" if the number is even, otherwise answer "no".')
     counter = 0
     while counter < 3:
-        number = randint(0, 100)
+        number = secrets.randbelow(100) + 1
         if number % 2 == 0:
             correct_answer = 'yes'
         else:
