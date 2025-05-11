@@ -3,30 +3,11 @@ revision = 2
 requires-python = ">=3.12"
 
 [[package]]
-name = "configobj"
-version = "5.0.9"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f5/c4/c7f9e41bc2e5f8eeae4a08a01c91b2aea3dfab40a3e14b25e87e7db8d501/configobj-5.0.9.tar.gz", hash = "sha256:03c881bbf23aa07bccf1b837005975993c4ab4427ba57f959afdd9d1a2386848", size = 101518, upload-time = "2024-09-21T12:47:46.315Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a6/c4/0679472c60052c27efa612b4cd3ddd2a23e885dcdc73461781d2c802d39e/configobj-5.0.9-py2.py3-none-any.whl", hash = "sha256:1ba10c5b6ee16229c79a05047aeda2b55eb4e80d7c7d8ecf17ec1ca600c79882", size = 35615, upload-time = "2024-11-26T14:03:32.972Z" },
-]
-
-[[package]]
-name = "future"
-version = "1.0.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a7/b2/4140c69c6a66432916b26158687e821ba631a4c9273c474343badf84d3ba/future-1.0.0.tar.gz", hash = "sha256:bd2968309307861edae1458a4f8a4f3598c03be43b97521076aebf5d94c07b05", size = 1228490, upload-time = "2024-02-21T11:52:38.461Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/da/71/ae30dadffc90b9006d77af76b393cb9dfbfc9629f339fc1574a1c52e6806/future-1.0.0-py3-none-any.whl", hash = "sha256:929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216", size = 491326, upload-time = "2024-02-21T11:52:35.956Z" },
-]
-
-[[package]]
 name = "hexlet-code"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "prompt" },
-    { name = "secrets" },
 ]
 
 [package.dev-dependencies]
@@ -35,10 +16,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "prompt", specifier = ">=0.4.1" },
-    { name = "secrets" },
-]
+requires-dist = [{ name = "prompt", specifier = ">=0.4.1" }]
 
 [package.metadata.requires-dev]
 dev = [{ name = "ruff", specifier = ">=0.11.8" }]
@@ -51,46 +29,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/a6/f1/f550fffbdbe3ca555
 wheels = [
     { url = "https://files.pythonhosted.org/packages/de/2a/baf04fe6bef0b73666fd891db1c395813ee9691f949ae4b42500dc440adb/prompt-0.4.1-py3-none-any.whl", hash = "sha256:98527de8dc3f0aa29669a39fbffeaf578ba6654dc836f737b6a5c6f9279002b7", size = 7149, upload-time = "2017-06-05T17:01:11.702Z" },
 ]
-
-[[package]]
-name = "pyasn1"
-version = "0.6.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ba/e9/01f1a64245b89f039897cb0130016d79f77d52669aae6ee7b159a6c4c018/pyasn1-0.6.1.tar.gz", hash = "sha256:6f580d2bdd84365380830acf45550f2511469f673cb4a5ae3857a3170128b034", size = 145322, upload-time = "2024-09-10T22:41:42.55Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/c8/f1/d6a797abb14f6283c0ddff96bbdd46937f64122b8c925cab503dd37f8214/pyasn1-0.6.1-py3-none-any.whl", hash = "sha256:0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629", size = 83135, upload-time = "2024-09-11T16:00:36.122Z" },
-]
-
-[[package]]
-name = "pyasn1-modules"
-version = "0.4.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyasn1" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/e9/e6/78ebbb10a8c8e4b61a59249394a4a594c1a7af95593dc933a349c8d00964/pyasn1_modules-0.4.2.tar.gz", hash = "sha256:677091de870a80aae844b1ca6134f54652fa2c8c5a52aa396440ac3106e941e6", size = 307892, upload-time = "2025-03-28T02:41:22.17Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/47/8d/d529b5d697919ba8c11ad626e835d4039be708a35b0d22de83a269a6682c/pyasn1_modules-0.4.2-py3-none-any.whl", hash = "sha256:29253a9207ce32b64c3ac6600edc75368f98473906e8fd1043bd6b5b1de2c14a", size = 181259, upload-time = "2025-03-28T02:41:19.028Z" },
-]
-
-[[package]]
-name = "python-gnupg"
-version = "0.5.4"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/f1/3e/ba0dc69c9f4e0aeb24d93175230ef057c151790a7516012f61014918992d/python-gnupg-0.5.4.tar.gz", hash = "sha256:f2fdb5fb29615c77c2743e1cb3d9314353a6e87b10c37d238d91ae1c6feae086", size = 65705, upload-time = "2025-01-07T11:58:34.073Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7b/5b/6666ed5a0d3ce4d5444af62e373d5ba8ab253a03487c86f2f9f1078e7c31/python_gnupg-0.5.4-py2.py3-none-any.whl", hash = "sha256:40ce25cde9df29af91fe931ce9df3ce544e14a37f62b13ca878c897217b2de6c", size = 21730, upload-time = "2025-01-07T11:58:32.249Z" },
-]
-
-[[package]]
-name = "python-ldap"
-version = "3.4.4"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "pyasn1" },
-    { name = "pyasn1-modules" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/fd/8b/1eeb4025dc1d3ac2f16678f38dec9ebdde6271c74955b72db5ce7a4dbfbd/python-ldap-3.4.4.tar.gz", hash = "sha256:7edb0accec4e037797705f3a05cbf36a9fde50d08c8f67f2aef99a2628fab828", size = 377889, upload-time = "2023-11-17T21:14:16.32Z" }
 
 [[package]]
 name = "ruff"
@@ -115,29 +53,4 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/de/7e/fff70b02e57852fda17bd43f99dda37b9bcf3e1af3d97c5834ff48d04715/ruff-0.11.8-py3-none-win32.whl", hash = "sha256:5b18caa297a786465cc511d7f8be19226acf9c0a1127e06e736cd4e1878c3ea2", size = 10451102, upload-time = "2025-05-01T14:53:14.303Z" },
     { url = "https://files.pythonhosted.org/packages/7b/a9/eaa571eb70648c9bde3120a1d5892597de57766e376b831b06e7c1e43945/ruff-0.11.8-py3-none-win_amd64.whl", hash = "sha256:6e70d11043bef637c5617297bdedec9632af15d53ac1e1ba29c448da9341b0c4", size = 11597410, upload-time = "2025-05-01T14:53:16.571Z" },
     { url = "https://files.pythonhosted.org/packages/cd/be/f6b790d6ae98f1f32c645f8540d5c96248b72343b0a56fab3a07f2941897/ruff-0.11.8-py3-none-win_arm64.whl", hash = "sha256:304432e4c4a792e3da85b7699feb3426a0908ab98bf29df22a31b0cdd098fac2", size = 10713129, upload-time = "2025-05-01T14:53:22.27Z" },
-]
-
-[[package]]
-name = "secrets"
-version = "1.0.2"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "configobj" },
-    { name = "python-gnupg" },
-    { name = "python-ldap" },
-    { name = "systematic" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/93/c4/166925e31bc06bfe49deb4dc3922584790a33b897509bac388acdc074a60/secrets-1.0.2.tar.gz", hash = "sha256:37075ab08607092e76da2b86e94dd38a0216ec80088a0a3f9220077750aeddf9", size = 7883, upload-time = "2019-11-15T13:48:22.344Z" }
-
-[[package]]
-name = "systematic"
-version = "4.8.7"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "configobj" },
-    { name = "future" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/11/c4/4fa8316a47637e12f885d0a7cc7d1afd5a522f84496027600cb2dc7fc6af/systematic-4.8.7.tar.gz", hash = "sha256:3b7715c7cca3a460a38fbaa8ef20c8327f94147ce2e3a2e1d105b232ab353a11", size = 59016, upload-time = "2019-09-26T01:11:56.758Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/ea/52/5e18ab99df82f9df1609b1e638ef534a6218b4a0d79a4f51b81eeafe716a/systematic-4.8.7-py3-none-any.whl", hash = "sha256:1abbaac95b78f7421b4baa0e946f978a2e37b3e076a036d9813b26bdd8f5fe00", size = 83832, upload-time = "2019-09-26T01:11:44.782Z" },
 ]
