@@ -5,6 +5,7 @@ import prompt
 from brain_games.cli import welcome_user
 from brain_games.games.calc import calc
 from brain_games.games.even import is_even
+from brain_games.games.gcd import find_gcd
 
 
 def main():
@@ -15,6 +16,9 @@ def main():
     elif 'brain-calc' in script_name:
         question = 'What is the result of the expression?'
         work_function = calc
+    elif 'brain-gcd' in script_name:
+        question = 'Find the greatest common divisor of given numbers.'
+        work_function = find_gcd
     
     name = welcome_user()
     print(question)
