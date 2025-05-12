@@ -1,5 +1,6 @@
 import secrets
 
+
 def calc():
     operand1 = secrets.randbelow(101)
     operand2 = secrets.randbelow(101)
