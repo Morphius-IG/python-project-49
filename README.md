@@ -1,4 +1,8 @@
+1. brain-even
 <a href="https://asciinema.org/a/cbMqNizrkty0PrZWNUJhIc1kD" target="_blank"><img src="https://asciinema.org/a/cbMqNizrkty0PrZWNUJhIc1kD.svg" /></a>
+
+2. brain-calc
+<a href="https://asciinema.org/a/kpSZUjE4ELVoRxDLRV53SeEzX" target="_blank"><img src="https://asciinema.org/a/kpSZUjE4ELVoRxDLRV53SeEzX.svg" /></a>
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Morphius-IG/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Morphius-IG/python-project-49/actions)
