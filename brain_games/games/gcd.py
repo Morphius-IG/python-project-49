@@ -1,5 +1,6 @@
 import secrets
 
+
 def find_gcd():
     a = 1
     b = 101

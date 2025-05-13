@@ -1,5 +1,6 @@
 import secrets
 
+
 def get_progression():
     first_number = secrets.randbelow(100)
     step = secrets.randbelow(4) + 1
