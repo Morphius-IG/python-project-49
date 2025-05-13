@@ -6,5 +6,6 @@ coverage.xml
 *_cache/
 *.egg-info
 __pycache__
+games/__pycache__
 dist/
 *.pyc
