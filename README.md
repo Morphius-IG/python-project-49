@@ -5,7 +5,7 @@
 <a href="https://asciinema.org/a/kpSZUjE4ELVoRxDLRV53SeEzX" target="_blank"><img src="https://asciinema.org/a/kpSZUjE4ELVoRxDLRV53SeEzX.svg" /></a>
 
 3. brain-gcd
-<a href="https://asciinema.org/a/t3AOIv7XSw3rydIwoKeMChu2d" target="_blank"><img src="https://asciinema.org/a/t3AOIv7XSw3rydIwoKeMChu2d.svg" /></a>
+<a href="https://asciinema.org/a/a9qGxMenye4TRpeAGENan5wwc" target="_blank"><img src="https://asciinema.org/a/a9qGxMenye4TRpeAGENan5wwc.svg" /></a>
 
 4. brain-progression
 <a href="https://asciinema.org/a/0Jdd8s2GoqiYSdrmd0X2fOfgn" target="_blank"><img src="https://asciinema.org/a/0Jdd8s2GoqiYSdrmd0X2fOfgn.svg" /></a>
