@@ -14,7 +14,7 @@ lint_fix: # Исправление ошибок линтером
 	uv run ruff check --fix brain_games
 rec:
 	asciinema rec demo.cast
-rec-overwrite:
+rec-ow:
 	asciinema rec demo.cast --overwrite
 rec-upload:
 	asciinema upload demo.cast
