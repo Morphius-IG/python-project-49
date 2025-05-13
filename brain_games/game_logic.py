@@ -26,8 +26,8 @@ def main():
         question = 'What number is missing in the progression?'
         work_function = get_progression
     elif 'brain-prime' in script_name:
-        question = 'Answer "yes" if given number is prime. "\
-            Otherwise answer "no".'
+        question = 'Answer "yes" if given number is prime. ' \
+            'Otherwise answer "no".'
         work_function = is_prime
     
     name = welcome_user()
@@ -41,7 +41,7 @@ def main():
             print('Correct!')
             counter += 1
         else:
-            print(f"'{answer}' is wrong answer ;(." 
+            print(f"'{answer}' is wrong answer ;(. " 
                   f"Correct answer was '{correct_answer}'.\n"
 f"Let's try again, {name}!")
             break
