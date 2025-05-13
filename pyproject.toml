@@ -2,13 +2,13 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Five console games to boost your brain!"
-authors = "Igor Adamovich"
+authors = [
+  { name = "Igor Adamovich", email = "justlikeme@mail.ru" },
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "prompt>=0.4.1",
-    "secrets",
-    "sys",
 ]
 
 [build-system]
