@@ -2,8 +2,6 @@ install: #Синхронизация при клонировании
 	uv sync
 brain-games: #Запуск игры
 	uv run brain-games
-brain-even: #Запуск игры на четность
-	uv run brain-even
 build: #Сборка проекта
 	uv build
 package-install: #Установка проекта
