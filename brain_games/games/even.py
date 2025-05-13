@@ -1,6 +1,5 @@
 import secrets
 
-
 def is_even():
     expression = secrets.randbelow(101)
     if expression % 2 == 0:

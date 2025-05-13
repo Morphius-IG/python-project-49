@@ -6,6 +6,7 @@ from brain_games.cli import welcome_user
 from brain_games.games.calc import calc
 from brain_games.games.even import is_even
 from brain_games.games.gcd import find_gcd
+from brain_games.games.progression import get_progression
 
 
 def main():
@@ -19,6 +20,9 @@ def main():
     elif 'brain-gcd' in script_name:
         question = 'Find the greatest common divisor of given numbers.'
         work_function = find_gcd
+    elif 'brain-progression' in script_name:
+        question = 'What number is missing in the progression?'
+        work_function = get_progression
     
     name = welcome_user()
     print(question)
