@@ -13,7 +13,8 @@ from brain_games.games.progression import get_progression
 def main():
     script_name = sys.argv[0]  # Получаем имя запущенного скрипта
     if 'brain-even' in script_name:
-        question = 'Answer "yes" if the number is even, otherwise answer "no".'
+        question = 'Answer "yes" if the number is even, "\
+            otherwise answer "no".'
         work_function = is_even
     elif 'brain-calc' in script_name:
         question = 'What is the result of the expression?'
@@ -25,7 +26,8 @@ def main():
         question = 'What number is missing in the progression?'
         work_function = get_progression
     elif 'brain-prime' in script_name:
-        question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+        question = 'Answer "yes" if given number is prime. "\
+            Otherwise answer "no".'
         work_function = is_prime
     
     name = welcome_user()
@@ -39,8 +41,9 @@ def main():
             print('Correct!')
             counter += 1
         else:
-            print(f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-Let's try again, {name}!""")
+            print(f"'{answer}' is wrong answer ;(." 
+                  f"Correct answer was '{correct_answer}'.\n"
+f"Let's try again, {name}!")
             break
     if counter == 3:
         print(f'Congratulations, {name}!')
