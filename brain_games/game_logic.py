@@ -13,8 +13,8 @@ from brain_games.games.progression import get_progression
 def main():
     script_name = sys.argv[0]  # Получаем имя запущенного скрипта
     if 'brain-even' in script_name:
-        question = 'Answer "yes" if the number is even, "\
-            otherwise answer "no".'
+        question = 'Answer "yes" if the number is even, ' \
+            'otherwise answer "no".'
         work_function = is_even
     elif 'brain-calc' in script_name:
         question = 'What is the result of the expression?'
